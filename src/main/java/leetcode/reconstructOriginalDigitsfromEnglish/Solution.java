@@ -1,9 +1,8 @@
 package leetcode.reconstructOriginalDigitsfromEnglish;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 /**
  * Given a non-empty string containing an out-of-order English representation of digits 0-9, output the digits in ascending order.
@@ -14,15 +13,11 @@ import leetcode.*;
  * Input is guaranteed to be valid and can be transformed to its original digits. That means invalid inputs such as "abc" or "zerone" are not permitted.
  * Input length is less than 50,000.
  * 
- * 
- * 
  * Example 1:
  * 
  * Input: "owoztneoer"
  * 
  * Output: "012"
- * 
- * 
  * 
  * Example 2:
  * 
@@ -30,8 +25,6 @@ import leetcode.*;
  * 
  * Output: "45"
  * 
- * 
-
  * Source: https://leetcode.com/problems/reconstruct-original-digits-from-english/
  */
 public class Solution {

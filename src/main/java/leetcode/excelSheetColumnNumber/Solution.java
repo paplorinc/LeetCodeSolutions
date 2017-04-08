@@ -1,10 +1,5 @@
 package leetcode.excelSheetColumnNumber;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Related to question Excel Sheet Column Title
  * Given a column title as appear in an Excel sheet, return its corresponding column number.

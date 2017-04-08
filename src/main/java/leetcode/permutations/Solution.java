@@ -1,15 +1,13 @@
 package leetcode.permutations;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * 
  * Given a collection of distinct numbers, return all possible permutations.
- * 
- * 
  * 
  * For example,
  * [1,2,3] have the following permutations:
@@ -23,8 +21,6 @@ import leetcode.*;
  * [3,2,1]
  * ]
  * 
- * 
-
  * Source: https://leetcode.com/problems/permutations/
  */
 public class Solution {

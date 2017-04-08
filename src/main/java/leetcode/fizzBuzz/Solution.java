@@ -1,9 +1,7 @@
 package leetcode.fizzBuzz;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Write a program that outputs the string representation of numbers from 1 to n.
@@ -33,8 +31,6 @@ import leetcode.*;
  * "FizzBuzz"
  * ]
  * 
- * 
-
  * Source: https://leetcode.com/problems/fizz-buzz/
  */
 public class Solution {

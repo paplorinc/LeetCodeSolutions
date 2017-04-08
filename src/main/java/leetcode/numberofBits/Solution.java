@@ -1,10 +1,5 @@
 package leetcode.numberofBits;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight).
  * 

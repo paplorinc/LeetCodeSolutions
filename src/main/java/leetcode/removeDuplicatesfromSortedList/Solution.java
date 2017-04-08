@@ -1,20 +1,15 @@
 package leetcode.removeDuplicatesfromSortedList;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.ListNode;
 
 /**
  * 
  * Given a sorted linked list, delete all duplicates such that each element appear only once.
  * 
- * 
  * For example,
  * Given 1->1->2, return 1->2.
  * Given 1->1->2->3->3, return 1->2->3.
  * 
-
  * Source: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  */
 /**

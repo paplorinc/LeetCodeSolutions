@@ -1,32 +1,28 @@
 package leetcode.basicCalculator;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Deque;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Implement a basic calculator to evaluate a simple expression string.
- * 
+ * <p>
  * The expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces  .
- * 
+ * <p>
  * You may assume that the given expression is always valid.
- * 
+ * <p>
  * Some examples:
- * 
+ * <p>
  * "1 + 1" = 2
  * " 2-1 + 2 " = 3
  * "(1+(4+5+2)-3)+(6+8)" = 23
- * 
- * 
- * 
- * 
+ * <p>
  * Note: Do not use the eval built-in library function.
- * 
-
+ * <p>
  * Source: https://leetcode.com/problems/basic-calculator/
  */
-import java.util.regex.*;
 public class Solution {
     public int calculate(String s) {
         int result = 0;

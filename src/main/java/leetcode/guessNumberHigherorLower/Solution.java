@@ -1,9 +1,6 @@
 package leetcode.guessNumberHigherorLower;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.GuessGame;
 
 /**
  * We are playing the Guess Game. The game is as follows:
@@ -18,15 +15,12 @@ import leetcode.*;
  * 1 : My number is higher
  * 0 : Congrats! You got it!
  * 
- * 
  * Example:
  * 
  * n = 10, I pick 6.
  * 
  * Return 6.
  * 
- * 
-
  * Source: https://leetcode.com/problems/guess-number-higher-or-lower/
  */
 /* The guess API is defined in the parent class GuessGame.

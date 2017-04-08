@@ -1,9 +1,6 @@
 package leetcode.deleteNodeinaBST;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
 
 /**
  * Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
@@ -12,8 +9,6 @@ import leetcode.*;
  * 
  * Search for a node to remove.
  * If the node is found, delete the node.
- * 
- * 
  * 
  * Note: Time complexity should be O(height of tree).
  * 
@@ -46,8 +41,6 @@ import leetcode.*;
  * \   \
  * 4   7
  * 
- * 
-
  * Source: https://leetcode.com/problems/delete-node-in-a-bst/
  */
 /**

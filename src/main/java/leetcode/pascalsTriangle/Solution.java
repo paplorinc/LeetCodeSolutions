@@ -1,13 +1,10 @@
 package leetcode.pascalsTriangle;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Given numRows, generate the first numRows of Pascal's triangle.
- * 
  * 
  * For example, given numRows = 5,
  * Return
@@ -20,8 +17,6 @@ import leetcode.*;
  * [1,4,6,4,1]
  * ]
  * 
- * 
-
  * Source: https://leetcode.com/problems/pascals-triangle/
  */
 public class Solution {

@@ -1,10 +1,5 @@
 package leetcode.majorityElement;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Given an array of size n, find the majority element. The majority element is the element that appears more than &lfloor; n/2 &rfloor; times.
  * 

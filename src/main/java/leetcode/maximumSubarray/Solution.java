@@ -1,29 +1,22 @@
 package leetcode.maximumSubarray;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * 
  * Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
- * 
- * 
+ * <p>
  * For example, given the array [-2,1,-3,4,-1,2,1,-5,4],
  * the contiguous subarray [4,-1,2,1] has the largest sum = 6.
- * 
- * 
+ * <p>
  * click to show more practice.
- * 
+ * <p>
  * More practice:
- * 
+ * <p>
  * If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
- * 
-
+ * <p>
  * Source: https://leetcode.com/problems/maximum-subarray/
  */
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Solution {
     public int maxSubArray(int[] nums) {

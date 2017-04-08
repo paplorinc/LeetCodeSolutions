@@ -1,9 +1,8 @@
 package leetcode.findAllDuplicatesinanArray;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayList;
+import java.util.BitSet;
+import java.util.List;
 
 /**
  * Given an array of integers, 1 &le; a[i] &le; n (n = size of array), some elements appear twice and others appear once.
@@ -20,7 +19,6 @@ import leetcode.*;
  * Output:
  * [2,3]
  * 
-
  * Source: https://leetcode.com/problems/find-all-duplicates-in-an-array/
  */
 public class Solution {

@@ -1,9 +1,6 @@
 package leetcode.thirdMaximumNumber;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.TreeSet;
 
 /**
  * Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
@@ -16,8 +13,6 @@ import leetcode.*;
  * 
  * Explanation: The third maximum is 1.
  * 
- * 
- * 
  * Example 2:
  * 
  * Input: [1, 2]
@@ -25,8 +20,6 @@ import leetcode.*;
  * Output: 2
  * 
  * Explanation: The third maximum does not exist, so the maximum (2) is returned instead.
- * 
- * 
  * 
  * Example 3:
  * 
@@ -37,8 +30,6 @@ import leetcode.*;
  * Explanation: Note that the third maximum here means the third maximum distinct number.
  * Both numbers with value 2 are both considered as second maximum.
  * 
- * 
-
  * Source: https://leetcode.com/problems/third-maximum-number/
  */
 public class Solution {

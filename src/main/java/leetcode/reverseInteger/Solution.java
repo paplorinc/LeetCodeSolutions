@@ -1,17 +1,10 @@
 package leetcode.reverseInteger;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Reverse digits of an integer.
  * 
- * 
  * Example1: x =  123, return  321
  * Example2: x = -123, return -321
- * 
  * 
  * click to show spoilers.
  * 
@@ -24,15 +17,11 @@ import leetcode.*;
  * Did you notice that the reversed integer might overflow? Assume the input is a 32-bit integer, then the reverse of 1000000003 overflows. How should you handle such cases?
  * 
  * For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
- * 
- * 
- * 
- * 
- * 
+ *
+ *
  * Note:
  * The input is assumed to be a 32-bit signed integer. Your function should return 0 when the reversed integer overflows.
  * 
-
  * Source: https://leetcode.com/problems/reverse-integer/
  */
 public class Solution {

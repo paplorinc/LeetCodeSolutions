@@ -1,9 +1,7 @@
 package leetcode.longestSubstringWithoutRepeatingCharacters;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Given a string, find the length of the longest substring without repeating characters.

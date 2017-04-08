@@ -1,10 +1,5 @@
 package leetcode.arrangingCoins;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.
  * 
@@ -23,8 +18,6 @@ import leetcode.*;
  * 
  * Because the 3rd row is incomplete, we return 2.
  * 
- * 
- * 
  * Example 2:
  * 
  * n = 8
@@ -37,8 +30,6 @@ import leetcode.*;
  * 
  * Because the 4th row is incomplete, we return 3.
  * 
- * 
-
  * Source: https://leetcode.com/problems/arranging-coins/
  */
 public class Solution {

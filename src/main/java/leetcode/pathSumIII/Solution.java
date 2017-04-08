@@ -1,9 +1,6 @@
 package leetcode.pathSumIII;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
 
 /**
  * You are given a binary tree in which each node contains an integer value.
@@ -33,8 +30,6 @@ import leetcode.*;
  * 2.  5 -> 2 -> 1
  * 3. -3 -> 11
  * 
- * 
-
  * Source: https://leetcode.com/problems/path-sum-iii/
  */
 public class Solution {

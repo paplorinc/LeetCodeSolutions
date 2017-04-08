@@ -1,17 +1,12 @@
 package leetcode.diagonalTraverse;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import static java.lang.Math.min;
 
 /**
- * 
  * Given a matrix of M x N elements (M rows, N columns), return all elements of the matrix in diagonal order as shown in the below image.
- * 
- * 
+ * <p>
  * Example:
- * 
+ * <p>
  * Input:
  * [
  * [ 1, 2, 3 ],
@@ -20,19 +15,13 @@ import leetcode.*;
  * ]
  * Output:  [1,2,4,7,5,3,6,8,9]
  * Explanation:
- * 
- * 
- * 
- * 
+ * <p>
  * Note:
- * 
+ * <p>
  * The total number of elements of the given matrix will not exceed 10,000.
- * 
- * 
-
+ * <p>
  * Source: https://leetcode.com/problems/diagonal-traverse/
  */
-import static java.lang.Math.min;
 public class Solution {
     public int[] findDiagonalOrder(int[]... m) {
         int[] result = new int[(m.length == 0) ? 0 : m.length * m[0].length];

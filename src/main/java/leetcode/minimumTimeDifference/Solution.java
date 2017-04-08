@@ -1,31 +1,26 @@
 package leetcode.minimumTimeDifference;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.time.Duration;
+import java.time.LocalTime;
+import java.util.List;
+
+import static java.util.stream.Collectors.toList;
 
 /**
  * Given a list of 24-hour clock time points in "Hour:Minutes" format, find the minimum minutes difference between any two time points in the list.
- * 
+ * <p>
  * Example 1:
- * 
+ * <p>
  * Input: ["23:59","00:00"]
  * Output: 1
- * 
- * 
- * 
+ * <p>
  * Note:
- * 
+ * <p>
  * The number of time points in the given list is at least 2 and won't exceed 20000.
  * The input time is legal and ranges from 00:00 to 23:59.
- * 
- * 
-
+ * <p>
  * Source: https://leetcode.com/problems/minimum-time-difference/
  */
-import java.time.*;
-import static java.util.stream.Collectors.*;
 public class Solution {
     public int findMinDifference(List<String> timePoints) {
         List<LocalTime> times = timePoints.stream().map(LocalTime::parse).sorted().collect(toList());

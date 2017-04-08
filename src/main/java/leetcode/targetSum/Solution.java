@@ -1,17 +1,12 @@
 package leetcode.targetSum;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
 
 /**
  * 
  * You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
  * 
- * 
  * Find out how many ways to assign symbols to make sum of integers equal to target S.
- * 
  * 
  * Example 1:
  * 
@@ -27,16 +22,12 @@ import leetcode.*;
  * 
  * There are 5 ways to assign symbols to make the sum of nums be target 3.
  * 
- * 
- * 
  * Note:
  * 
  * The length of the given array is positive and will not exceed 20.
  * The sum of elements in the given array will not exceed 1000.
  * Your output answer is guaranteed to be fitted in a 32-bit integer.
  * 
- * 
-
  * Source: https://leetcode.com/problems/target-sum/
  */
 public class Solution {

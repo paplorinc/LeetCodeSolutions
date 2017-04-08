@@ -1,10 +1,5 @@
 package leetcode.palindromeNumber;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Determine whether an integer is a palindrome. Do this without extra space.
  * 
@@ -20,8 +15,6 @@ import leetcode.*;
  * 
  * There is a more generic way of solving this problem.
  * 
- * 
-
  * Source: https://leetcode.com/problems/palindrome-number/
  */
 public class Solution {

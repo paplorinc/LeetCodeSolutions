@@ -1,10 +1,5 @@
 package leetcode.firstUniqueCharacterinaString;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * 
  * Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
@@ -17,12 +12,8 @@ import leetcode.*;
  * s = "loveleetcode",
  * return 2.
  * 
- * 
- * 
- * 
  * Note: You may assume the string contain only lowercase letters.
  * 
-
  * Source: https://leetcode.com/problems/first-unique-character-in-a-string/
  */
 public class Solution {

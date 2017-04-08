@@ -1,9 +1,7 @@
 package leetcode.isomorphicStrings;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Given two strings s and t, determine if they are isomorphic.

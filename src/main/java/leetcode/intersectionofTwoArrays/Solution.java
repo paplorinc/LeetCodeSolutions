@@ -1,26 +1,21 @@
 package leetcode.intersectionofTwoArrays;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * 
  * Given two arrays, write a function to compute their intersection.
  * 
- * 
  * Example:
  * Given nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2].
- * 
  * 
  * Note:
  * 
  * Each element in the result must be unique.
  * The result can be in any order.
  * 
- * 
-
  * Source: https://leetcode.com/problems/intersection-of-two-arrays/
  */
 public class Solution {

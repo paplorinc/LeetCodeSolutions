@@ -1,15 +1,8 @@
 package leetcode.detectCapital;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * 
  * Given a word, you need to judge whether the usage of capitals in it is right or not.
- * 
- * 
  * 
  * We define the usage of capitals in a word to be right when one of the following cases holds:
  * 
@@ -19,26 +12,19 @@ import leetcode.*;
  * 
  * Otherwise, we define that this word doesn't use capitals in a right way.
  * 
- * 
- * 
  * Example 1:
  * 
  * Input: "USA"
  * Output: True
- * 
- * 
  * 
  * Example 2:
  * 
  * Input: "FlaG"
  * Output: False
  * 
- * 
- * 
  * Note:
  * The input will be a non-empty word consisting of uppercase and lowercase latin letters.
  * 
-
  * Source: https://leetcode.com/problems/detect-capital/
  */
 public class Solution {

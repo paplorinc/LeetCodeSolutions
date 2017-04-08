@@ -1,10 +1,5 @@
 package leetcode.longestPalindromicSubstring;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
  * 
@@ -16,16 +11,12 @@ import leetcode.*;
  * 
  * Note: "aba" is also a valid answer.
  * 
- * 
- * 
  * Example:
  * 
  * Input: "cbbd"
  * 
  * Output: "bb"
  * 
- * 
-
  * Source: https://leetcode.com/problems/longest-palindromic-substring/
  */
 public class Solution {

@@ -1,10 +1,5 @@
 package leetcode.twoSumIIInputarrayissorted;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
  * 
@@ -12,11 +7,9 @@ import leetcode.*;
  * 
  * You may assume that each input would have exactly one solution and you may not use the same element twice.
  * 
- * 
  * Input: numbers={2, 7, 11, 15}, target=9
  * Output: index1=1, index2=2
  * 
-
  * Source: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
  */
 public class Solution {

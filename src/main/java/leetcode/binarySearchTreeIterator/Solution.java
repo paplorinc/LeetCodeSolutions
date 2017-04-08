@@ -1,9 +1,9 @@
 package leetcode.binarySearchTreeIterator;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 /**
  * Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.

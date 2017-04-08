@@ -1,26 +1,19 @@
 package leetcode.implementQueueusingStacks;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Collections;
+import java.util.Stack;
 
 /**
  * 
  * Implement the following operations of a queue using stacks.
  * 
- * 
  * push(x) -- Push element x to the back of queue.
- * 
  * 
  * pop() -- Removes the element from in front of queue.
  * 
- * 
  * peek() -- Get the front element.
  * 
- * 
  * empty() -- Return whether the queue is empty.
- * 
  * 
  * Notes:
  * 
@@ -28,8 +21,6 @@ import leetcode.*;
  * Depending on your language, stack may not be supported natively. You may simulate a stack by using a list or deque (double-ended queue), as long as you use only standard operations of a stack.
  * You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
  * 
- * 
-
  * Source: https://leetcode.com/problems/implement-queue-using-stacks/
  */
 public class MyQueue {

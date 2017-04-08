@@ -1,10 +1,5 @@
 package leetcode.rangeSumQueryImmutable;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Given an integer array nums, find the sum of the elements between indices i and j (i &le; j), inclusive.
  * 
@@ -16,15 +11,11 @@ import leetcode.*;
  * sumRange(2, 5) -> -1
  * sumRange(0, 5) -> -3
  * 
- * 
- * 
  * Note:
  * 
  * You may assume that the array does not change.
  * There are many calls to sumRange function.
  * 
- * 
-
  * Source: https://leetcode.com/problems/range-sum-query-immutable/
  */
 public class NumArray {

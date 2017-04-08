@@ -1,10 +1,5 @@
 package leetcode.sqrtx;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Implement int sqrt(int x).
  * 

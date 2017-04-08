@@ -1,9 +1,6 @@
 package leetcode.minimumDepthofBinaryTree;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
 
 /**
  * Given a binary tree, find its minimum depth.

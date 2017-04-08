@@ -1,10 +1,5 @@
 package leetcode.addStrings;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
  * 
@@ -15,8 +10,6 @@ import leetcode.*;
  * Both num1 and num2 does not contain any leading zero.
  * You must not use any built-in BigInteger library or convert the inputs to integer directly.
  * 
- * 
-
  * Source: https://leetcode.com/problems/add-strings/
  */
 public class Solution {

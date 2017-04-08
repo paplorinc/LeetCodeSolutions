@@ -1,9 +1,6 @@
 package leetcode.palindromeLinkedList;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.ListNode;
 
 /**
  * Given a singly linked list, determine if it is a palindrome.

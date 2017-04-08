@@ -1,13 +1,9 @@
 package leetcode.minimumAbsoluteDifferenceinBST;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
 
 /**
  * Given a binary search tree with non-negative values, find the minimum absolute difference between values of any two nodes.
- * 
  * 
  * Example:
  * 
@@ -25,13 +21,9 @@ import leetcode.*;
  * Explanation:
  * The minimum absolute difference is 1, which is the difference between 2 and 1 (or between 2 and 3).
  * 
- * 
- * 
- * 
  * Note:
  * There are at least two nodes in this BST.
  * 
-
  * Source: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
  */
 /**

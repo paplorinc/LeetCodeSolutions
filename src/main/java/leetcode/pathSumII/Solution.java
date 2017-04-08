@@ -1,14 +1,13 @@
 package leetcode.pathSumII;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 
  * Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
- * 
  * 
  * For example:
  * Given the below binary tree and sum = 22,
@@ -21,8 +20,6 @@ import leetcode.*;
  * /  \    / \
  * 7    2  5   1
  * 
- * 
- * 
  * return
  * 
  * [
@@ -30,8 +27,6 @@ import leetcode.*;
  * [5,8,4,5]
  * ]
  * 
- * 
-
  * Source: https://leetcode.com/problems/path-sum-ii/
  */
 public class Solution {

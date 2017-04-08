@@ -1,18 +1,13 @@
 package leetcode.generateParentheses;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 
  * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
  * 
- * 
- * 
  * For example, given n = 3, a solution set is:
- * 
  * 
  * [
  * "((()))",
@@ -22,7 +17,6 @@ import leetcode.*;
  * "()()()"
  * ]
  * 
-
  * Source: https://leetcode.com/problems/generate-parentheses/
  */
 public class Solution {

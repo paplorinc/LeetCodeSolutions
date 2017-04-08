@@ -1,9 +1,6 @@
 package leetcode.rotateList;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.ListNode;
 
 /**
  * Given a list, rotate the list to the right by k places, where k is non-negative.

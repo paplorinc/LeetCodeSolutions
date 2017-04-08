@@ -1,10 +1,5 @@
 package leetcode.hammingDistance;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
  * 
@@ -12,7 +7,6 @@ import leetcode.*;
  * 
  * Note:
  * 0 &le; x, y &lt; 231.
- * 
  * 
  * Example:
  * 
@@ -27,8 +21,6 @@ import leetcode.*;
  * 
  * The above arrows point to positions where the corresponding bits are different.
  * 
- * 
-
  * Source: https://leetcode.com/problems/hamming-distance/
  */
 public class Solution {

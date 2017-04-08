@@ -1,13 +1,12 @@
 package leetcode.binaryTreeInorderTraversal;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Given a binary tree, return the inorder traversal of its nodes' values.
- * 
  * 
  * For example:
  * Given binary tree [1,null,2,3],
@@ -18,10 +17,7 @@ import leetcode.*;
  * /
  * 3
  * 
- * 
- * 
  * return [1,3,2].
- * 
  * 
  * Note: Recursive solution is trivial, could you do it iteratively?
 

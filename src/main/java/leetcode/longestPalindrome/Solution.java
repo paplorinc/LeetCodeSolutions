@@ -1,9 +1,6 @@
 package leetcode.longestPalindrome;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.BitSet;
 
 /**
  * Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.
@@ -12,7 +9,6 @@ import leetcode.*;
  * 
  * Note:
  * Assume the length of given string will not exceed 1,010.
- * 
  * 
  * Example:
  * 
@@ -25,8 +21,6 @@ import leetcode.*;
  * Explanation:
  * One longest palindrome that can be built is "dccaccd", whose length is 7.
  * 
- * 
-
  * Source: https://leetcode.com/problems/longest-palindrome/
  */
 public class Solution {

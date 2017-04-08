@@ -1,13 +1,11 @@
 package leetcode.binaryTreeLevelOrderTraversalII;
 
+import leetcode.TreeNode;
+
 import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
 
 /**
  * Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
- * 
  * 
  * For example:
  * Given binary tree [3,9,20,null,null,15,7],
@@ -18,8 +16,6 @@ import leetcode.*;
  * /  \
  * 15   7
  * 
- * 
- * 
  * return its bottom-up level order traversal as:
  * 
  * [
@@ -28,8 +24,6 @@ import leetcode.*;
  * [3]
  * ]
  * 
- * 
-
  * Source: https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
  */
 public class Solution {

@@ -1,10 +1,5 @@
 package leetcode.factorialTrailingZeroes;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Given an integer n, return the number of trailing zeroes in n!.
  * 

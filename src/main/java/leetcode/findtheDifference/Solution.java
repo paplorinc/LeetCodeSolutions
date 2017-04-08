@@ -1,9 +1,6 @@
 package leetcode.findtheDifference;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
 
 /**
  * 
@@ -25,7 +22,6 @@ import leetcode.*;
  * Explanation:
  * 'e' is the letter that was added.
  * 
-
  * Source: https://leetcode.com/problems/find-the-difference/
  */
 public class Solution {

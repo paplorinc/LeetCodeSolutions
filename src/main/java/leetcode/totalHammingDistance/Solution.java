@@ -1,15 +1,15 @@
 package leetcode.totalHammingDistance;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
  * 
  * Now your job is to find the total Hamming distance between all pairs of the given numbers.
- * 
  * 
  * Example:
  * 
@@ -21,15 +21,11 @@ import leetcode.*;
  * showing the four bits relevant in this case). So the answer will be:
  * HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 + 2 = 6.
  * 
- * 
- * 
  * Note:
  * 
  * Elements of the given array are in the range of 0  to 10^9
  * Length of the array will not exceed 10^4.
  * 
- * 
-
  * Source: https://leetcode.com/problems/total-hamming-distance/
  */
 public class Solution {

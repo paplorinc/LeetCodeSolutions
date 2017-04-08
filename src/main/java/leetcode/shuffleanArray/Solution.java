@@ -1,34 +1,27 @@
 package leetcode.shuffleanArray;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Shuffle a set of numbers without duplicates.
- * 
- * 
+ * <p>
  * Example:
- * 
+ * <p>
  * // Init an array with set 1, 2, and 3.
  * int[] nums = {1,2,3};
  * Solution solution = new Solution(nums);
- * 
+ * <p>
  * // Shuffle the array [1,2,3] and return its result. Any permutation of [1,2,3] must equally likely to be returned.
  * solution.shuffle();
- * 
+ * <p>
  * // Resets the array back to its original configuration [1,2,3].
  * solution.reset();
- * 
+ * <p>
  * // Returns the random shuffling of array [1,2,3].
  * solution.shuffle();
- * 
- * 
-
+ * <p>
  * Source: https://leetcode.com/problems/shuffle-an-array/
  */
-import java.util.concurrent.ThreadLocalRandom;
 public class Solution {
     int[] copy, nums;
     

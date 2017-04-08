@@ -1,14 +1,8 @@
 package leetcode.longestCommonPrefix;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
-
 /**
  * Write a function to find the longest common prefix string amongst an array of strings.
  * 
-
  * Source: https://leetcode.com/problems/longest-common-prefix/
  */
 public class Solution {

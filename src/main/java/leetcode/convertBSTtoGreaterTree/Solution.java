@@ -1,13 +1,9 @@
 package leetcode.convertBSTtoGreaterTree;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
 
 /**
  * Given a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.
- * 
  * 
  * Example:
  * 
@@ -21,8 +17,6 @@ import leetcode.*;
  * /   \
  * 20     13
  * 
- * 
-
  * Source: https://leetcode.com/problems/convert-bst-to-greater-tree/
  */
 /**

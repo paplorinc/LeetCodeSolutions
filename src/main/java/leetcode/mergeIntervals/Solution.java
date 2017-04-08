@@ -1,19 +1,19 @@
 package leetcode.mergeIntervals;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.Interval;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Given a collection of intervals, merge all overlapping intervals.
- * 
  * 
  * For example,
  * Given [1,3],[2,6],[8,10],[15,18],
  * return [1,6],[8,10],[15,18].
  * 
-
  * Source: https://leetcode.com/problems/merge-intervals/
  */
 class Solution {

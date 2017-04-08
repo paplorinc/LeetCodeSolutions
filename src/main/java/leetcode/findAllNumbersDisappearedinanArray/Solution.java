@@ -1,9 +1,6 @@
 package leetcode.findAllNumbersDisappearedinanArray;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayList;
 
 /**
  * Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
@@ -20,8 +17,6 @@ import leetcode.*;
  * Output:
  * [5,6]
  * 
- * 
-
  * Source: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
  */
 public class Solution {

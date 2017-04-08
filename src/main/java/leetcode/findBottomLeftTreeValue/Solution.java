@@ -1,14 +1,14 @@
 package leetcode.findBottomLeftTreeValue;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeNode;
+
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Deque;
 
 /**
  * 
  * Given a binary tree, find the leftmost value in the last row of the tree.
- * 
  * 
  * Example 1:
  * 
@@ -20,8 +20,6 @@ import leetcode.*;
  * 
  * Output:
  * 1
- * 
- * 
  * 
  * Example 2:
  * 
@@ -38,12 +36,9 @@ import leetcode.*;
  * Output:
  * 7
  * 
- * 
- * 
  * Note:
  * You may assume the tree (i.e., the given root node) is not NULL.
  * 
-
  * Source: https://leetcode.com/problems/find-bottom-left-tree-value/
  */
 /**

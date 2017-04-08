@@ -1,9 +1,6 @@
 package leetcode.intersectionofTwoLinkedLists;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.ListNode;
 
 /**
  * Write a program to find the node at which the intersection of two singly linked lists begins.
@@ -24,8 +21,6 @@ import leetcode.*;
  * The linked lists must retain their original structure after the function returns.
  * You may assume there are no cycles anywhere in the entire linked structure.
  * Your code should preferably run in O(n) time and use only O(1) memory.
- * 
- * 
  * 
  * Credits:Special thanks to @stellari for adding this problem and creating all test cases.
 

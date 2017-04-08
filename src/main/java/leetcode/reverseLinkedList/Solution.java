@@ -1,9 +1,6 @@
 package leetcode.reverseLinkedList;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.ListNode;
 
 /**
  * Reverse a singly linked list.
@@ -13,7 +10,6 @@ import leetcode.*;
  * Hint:
  * A linked list can be reversed either iteratively or recursively. Could you implement both?
  * 
-
  * Source: https://leetcode.com/problems/reverse-linked-list/
  */
 /**

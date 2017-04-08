@@ -1,9 +1,9 @@
 package leetcode.findLargestValueinEachTreeRow;
 
+import leetcode.TreeNode;
+
 import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.function.Consumer;
 
 /**
  * You need to find the largest value in each row of a binary tree.
@@ -20,8 +20,6 @@ import leetcode.*;
  * 
  * Output: [1, 3, 9]
  * 
- * 
-
  * Source: https://leetcode.com/problems/find-largest-value-in-each-tree-row/
  */
 public class Solution {

@@ -1,16 +1,12 @@
 package leetcode.countPrimes;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.BitSet;
 
 /**
  * Description:
  * Count the number of prime numbers less than a non-negative number, n.
  * 
  * Credits:Special thanks to @mithmatt for adding this problem and creating all test cases.
- * 
  * 
  * Let's start with a isPrime function. To determine if a number is prime, we need to check if it is not divisible by any number less than n. The runtime complexity of isPrime function would be O(n) and hence counting the total prime numbers up to n would be O(n2). Could we do better?
  * 
@@ -23,11 +19,9 @@ import leetcode.*;
  * 4 × 3 = 12
  * 6 × 2 = 12
  * 
- * 
  * As you can see, calculations of 4 × 3 and 6 × 2 are not necessary. Therefore, we only need to consider factors up to &radic;n because, if n is divisible by some number p, then n = p × q and since p &le; q, we could derive that p &le; &radic;n.
  * 
  * Our total runtime has now improved to O(n1.5), which is slightly better. Is there a faster approach?
- * 
  * 
  * public int countPrimes(int n) {
  * int count = 0;
@@ -47,13 +41,9 @@ import leetcode.*;
  * return true;
  * }
  * 
- * 
  * The Sieve of Eratosthenes is one of the most efficient ways to find all prime numbers up to n. But don't let that name scare you, I promise that the concept is surprisingly simple.
  * 
- * 
- * 
  * Sieve of Eratosthenes: algorithm steps for primes below 121. "Sieve of Eratosthenes Animation" by SKopp is licensed under CC BY 2.0.
- * 
  * 
  * We start off with a table of n numbers. Let's look at the first number, 2. We know all multiples of 2 must not be primes, so we mark them off as non-primes. Then we look at the next number, 3. Similarly, all multiples of 3 such as 3 × 2 = 6, 3 × 3 = 9, ... must not be primes, so we mark them off as well. Now we look at the next number, 4, which was already marked off. What does this tell you? Should you mark off all multiples of 4 as well?
  * 
@@ -66,7 +56,6 @@ import leetcode.*;
  * Yes, the terminating loop condition can be p < &radic;n, as all non-primes &ge; &radic;n must have already been marked off. When the loop terminates, all the numbers in the table that are non-marked are prime.
  * 
  * The Sieve of Eratosthenes uses an extra O(n) memory and its runtime complexity is O(n log log n). For the more mathematically inclined readers, you can read more about its algorithm complexity on Wikipedia.
- * 
  * 
  * public int countPrimes(int n) {
  * boolean[] isPrime = new boolean[n];
@@ -88,9 +77,6 @@ import leetcode.*;
  * return count;
  * }
  * 
- * 
- * 
-
  * Source: https://leetcode.com/problems/count-primes/
  */
 public class Solution {
