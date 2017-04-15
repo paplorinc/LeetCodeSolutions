@@ -1,15 +1,12 @@
 package leetcode.stringtoIntegeratoi;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.math.BigInteger;
 
 /**
  * Implement atoi to convert a string to an integer.
  * Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
- * Notes: 
- * It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front. 
+ * Notes:
+ * It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front.
  * Update (2015-02-10):
  * The signature of the C++ function had been updated. If you still see your function signature accepts a const char * argument, please click the reload button  to reset your code definition.
  * spoilers alert... click to show requirements for atoi.
@@ -21,7 +18,6 @@ import leetcode.*;
  *
  * Source: https://leetcode.com/problems/string-to-integer-atoi/
  */
-import java.math.BigInteger;
 public class Solution {
     public int myAtoi(String str) {
         try {
