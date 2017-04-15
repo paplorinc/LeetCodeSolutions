@@ -1,9 +1,8 @@
 package leetcode.populatingNextRightPointersinEachNode;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import leetcode.TreeLinkNode;
+
+import java.util.stream.Stream;
 
 /**
  * Given a binary tree
@@ -40,7 +39,7 @@ public class Solution {
         root.left.next = root.right;
         if (root.next != null)
             root.right.next = root.next.left;
-        
+
         Stream.of(root.left, root.right).forEach(this::connect);
     }
 }

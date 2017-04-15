@@ -1,9 +1,7 @@
 package leetcode.summaryRanges;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Given a sorted integer array without duplicates, return the summary of its ranges.

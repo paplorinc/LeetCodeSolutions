@@ -1,9 +1,7 @@
 package leetcode.reverseWordsinaString;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 /**
  * Given an input string, reverse the string word by word.

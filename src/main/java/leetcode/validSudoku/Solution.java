@@ -1,9 +1,7 @@
 package leetcode.validSudoku;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.

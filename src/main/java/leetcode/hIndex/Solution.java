@@ -1,9 +1,6 @@
 package leetcode.hIndex;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
 
 /**
  * Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.

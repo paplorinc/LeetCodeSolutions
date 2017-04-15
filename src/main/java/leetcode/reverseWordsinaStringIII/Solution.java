@@ -1,9 +1,7 @@
 package leetcode.reverseWordsinaStringIII;
 
-import java.util.*;
-import java.util.stream.*;
-import java.util.function.*;
-import leetcode.*;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 /**
  * Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
