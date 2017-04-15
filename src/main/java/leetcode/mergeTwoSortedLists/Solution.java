@@ -4,7 +4,7 @@ import leetcode.ListNode;
 
 /**
  * Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
-
+ *
  * Source: https://leetcode.com/problems/merge-two-sorted-lists/
  */
 /**
@@ -23,7 +23,7 @@ public class Solution {
             l1.next = mergeTwoLists(l1.next, l2);
             return l1;
         } else {
-            l2.next = mergeTwoLists(l1, l2.next); 
+            l2.next = mergeTwoLists(l1, l2.next);
             return l2;
         }
     }

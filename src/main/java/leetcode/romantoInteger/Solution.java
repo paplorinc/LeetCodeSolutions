@@ -2,9 +2,8 @@ package leetcode.romantoInteger;
 
 /**
  * Given a roman numeral, convert it to an integer.
- * 
  * Input is guaranteed to be within the range from 1 to 3999.
-
+ *
  * Source: https://leetcode.com/problems/roman-to-integer/
  */
 public class Solution {
@@ -18,7 +17,7 @@ public class Solution {
         }
         return result;
     }
-    
+
     int delta(char digit) {
         switch (digit) {
             case 'M': return 1000;

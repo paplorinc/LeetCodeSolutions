@@ -16,7 +16,7 @@ import java.util.BitSet;
 public class Solution {
     public void setZeroes(int[][] matrix) {
         BitSet zeroRows = new BitSet(), zeroColumns = new BitSet();
-        
+
         for (int r = 0; r < matrix.length; r++)
             for (int c = 0; c < matrix[r].length; c++)
                 if (matrix[r][c] == 0) {

@@ -4,7 +4,6 @@ import java.math.BigInteger;
 
 /**
  * Given two binary strings, return their sum (also a binary string).
- * <p>
  * For example,
  * a = "11"
  * b = "1"

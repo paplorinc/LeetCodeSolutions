@@ -4,10 +4,9 @@ import leetcode.ListNode;
 
 /**
  * Given a singly linked list, determine if it is a palindrome.
- * 
  * Follow up:
  * Could you do it in O(n) time and O(1) space?
-
+ *
  * Source: https://leetcode.com/problems/palindrome-linked-list/
  */
 /**
@@ -37,7 +36,7 @@ public class Solution {
     ListNode reverse(ListNode head, int skip) {
         for (; skip > 0; skip--)
             head = head.next;
-        
+
         ListNode previous = null;
         while (head != null) {
             ListNode next = head.next;

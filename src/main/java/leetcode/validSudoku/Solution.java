@@ -20,15 +20,14 @@ public class Solution {
                 if ('.' != board[r][c] && !encountered.add(board[r][c]))
                     return false;
         }
-                
+
         for (int c = 0; c < board[0].length; c++) {
             Set<Character> encountered = new HashSet<>();
             for (int r = 0; r < board.length; r++)
                 if ('.' != board[r][c] && !encountered.add(board[r][c]))
                     return false;
         }
-            
-        
+
         int smallHeight = (int) Math.sqrt(board.length), smallWidth = (int) Math.sqrt(board[0].length);
         for (int r = 0; r < board.length; r += smallWidth)
             for (int c = 0; c < board[r].length; c += smallHeight) {
@@ -36,7 +35,7 @@ public class Solution {
                 for (int i = 0; i < smallHeight; i++)
                     for (int j = 0; j < smallWidth; j++)
                         if ('.' != board[r+i][c+j] && !encountered.add(board[r+i][c+j]))
-                            return false; 
+                            return false;
             }
 
         return true;
